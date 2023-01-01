@@ -43,23 +43,50 @@ struct JobPrefrences: View {
                     .fontWeight(.medium)
                 
                 Toggle("Engineering", isOn: $Engineering)
+                    .onTapGesture {
+                        print("User selected engineering - auto generated 0101")
+                    }
                 
                 Toggle("Cooking", isOn: $Cooking)
+                    .onTapGesture {
+                        print("User selected cooking - auto generated 0101")
+                    }
                 
                 Toggle("Tech", isOn: $Tech)
+                    .onTapGesture {
+                        print("User selected tech - auto generated 0101")
+                    }
                 
                 Toggle("Software Engineering", isOn: $SoftwareEngineering)
+                    .onTapGesture {
+                        print("User selected software engineering - auto generated 0101")
+                    }
                 
                 Toggle("Medical", isOn: $Medical)
+                    .onTapGesture {
+                        print("User selected medical - auto generated 0101")
+                    }
                 
                 
                 Toggle("IT", isOn: $IT)
+                    .onTapGesture {
+                        print("User selected IT - auto generated 0101")
+                    }
                 
                 Toggle("Space Exploratoin", isOn: $SpaceExploration)
+                    .onTapGesture {
+                        print("User selected space exploration - auto generated 0101")
+                    }
                 
                 Toggle("Desinger", isOn: $Designer)
+                    .onTapGesture {
+                        print("User selected designer - auto generated 0101")
+                    }
                 
                 Toggle("Corprate Job", isOn: $CorprateJobs)
+                    .onTapGesture {
+                        print("User selected coorprate jobs - auto generated 0101")
+                    }
                 
             }.navigationTitle("Preferd Feilds")
         }
