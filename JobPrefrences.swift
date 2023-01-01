@@ -1,13 +1,13 @@
 //
-//  JobPrefrences.swift
+//  JobFields.swift
 //  HireMe!
 //
-//  Created by Jayce Sagvold on 12/31/22.
+//  Created by Jayce Sagvold on 1/1/23.
 //
 
 import SwiftUI
 
-struct JobPrefrences: View {
+struct JobFields: View {
     
     @State private var Engineering: Bool = false
     
@@ -26,6 +26,7 @@ struct JobPrefrences: View {
     @State private var Designer: Bool = false
     
     @State private var CorprateJobs: Bool = false
+    
     
     var body: some View {
         
@@ -88,13 +89,13 @@ struct JobPrefrences: View {
                         print("User selected coorprate jobs - auto generated 0101")
                     }
                 
-            }.navigationTitle("Preferd Feilds")
-        }
+        }.navigationTitle("Preferd Feilds")
     }
+}
     
-    struct JobPrefrences_Previews: PreviewProvider {
+    struct JobFields_Previews: PreviewProvider {
         static var previews: some View {
-            JobPrefrences()
+            JobFields()
         }
     }
 }
